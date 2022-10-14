@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+    
+<html>
+    <head>
+        <title>Minha Primeira Tabela</title>
+        <meta charset="UTF-8">
+
+        <style>
+            table {
+                width: 100%;
+                border-collapse: separate;
+                border-spacing: 1px;
+                border: 1px solid black;
+                empty-cells: hide;
+            }
+
+            thead {
+                color: black;
+                font-size: 16pt;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: lightblue;
+            }
+
+            tbody {
+                font-weight: bold;
+                text-align: left;                
+            }
+
+            tfoot {
+                color: black;
+                text-align: center;
+                background-color: lightblue;
+                font-size: 10pt;
+            }
+
+            tr, td, th {
+
+                border: 1px solid black;
+            }
+
+            th {
+                text-align: left;
+            }
+
+            caption {
+                caption-side: bottom;
+                color: darkred;
+                font-size: 12pt;
+                text-align: left;
+            }
+
+            #endereco {
+                text-align: center;
+            }
+
+            tbody tr
+            
+        </style>
+
+    </head>
+
+    <body> 
+        <table border="1">
+            <caption> Tabela 1. Relação de cliente da ABC Company</caption>
+            <thead> 
+                <tr>
+                    <th rowspan="2">Nome</th>
+                    <th rowspan="2">Contato</th>
+                    <th id="endereco" colspan="5">Endereço</th>
+                </tr>
+                <tr>
+                    <th>Rua</th>
+                    <th>Número</th>
+                    <th>Cidade</th>
+                    <th>Estado</th>
+                    <th>CEP</th>
+                </tr>
+            </thead>
+
+            <tbody> 
+                <tr>
+                    <td>Carlos</td>
+                    <td>21975652572</td>
+                    <td>Visconde de Niteroi</td>
+                    <td>512</td>
+                    <td>Rio de Janeiro</td>
+                    <td>Rio de Janeiro</td>
+                    <td>20943000</td>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>21975652572</td>
+                    <td>Visconde de Niteroi</td>
+                    <td>512</td>
+                    <td>Rio de Janeiro</td>
+                    <td>Rio de Janeiro</td>
+                    <td>20943000</td>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>21975652572</td>
+                    <td></td>
+                    <td>512</td>
+                    <td>Rio de Janeiro</td>
+                    <td>Rio de Janeiro</td>
+                    <td>20943000</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <td colspan="7">Para maiores informações, entre em contato comigo.</td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+    </body>
+
+</html>
