@@ -1,0 +1,65 @@
+/*este é um exemplo de formulario com css*/
+
+label[for] {
+    background: yellow;
+}
+
+.obrigatorio {
+    color: red;
+}
+
+input[type=text] {
+    background: greenyellow;
+    border: 1px solid black;
+}
+
+form div {
+    margin: 10px;
+}
+
+a[href*=edu]{
+    background: greenyellow;
+    color: red;
+}
+
+option[value=R]{
+    color: blue;
+}
+
+option[value=S]{
+    color: green;
+}
+
+option[value=E]{
+    color: pink;
+}
+
+[placeholder]{
+    color: red;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover, h1:hover {
+    background-color: yellow;
+}
+
+a:visited, h1:hover {
+    color: purple;
+}
+
+input:hover, textarea:hover {
+    background: goldenrod;
+}
+
+input:focus, textarea:focus {
+    background-color: blueviolet;
+    border: 1px solid red;
+}
+
+#meuslinks li:first-child {
+    background: red;
+}
